@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: scale(1.1);
+}
+
+#wave {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+  height: 10px;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  background-size: 200% 100%;
+  display: none;
+  animation: wave 1s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
