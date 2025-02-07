@@ -15,6 +15,7 @@ Clone the repository:
 git clone https://github.com/yourusername/password-generator.git
 cd password-generator 
 ```
+
 #Install dependencies
 For Python (if you’re using Python to implement the generator):
 
@@ -34,10 +35,15 @@ For Node.js:
 ```bash
 node password_generator.js
 ```
+
 Usage
+
 1.Set Password Length: Choose how long you want your password to be.
+
 2.Choose Character Types: Select from lowercase letters, uppercase letters, numbers, and special characters.
+
 3.Generate Password: Click "Generate" (or run the command) to get your secure password.
+
 
 Example
 ```bash
@@ -49,6 +55,7 @@ Include Special Characters: Yes
 
 Generated Password: `Jk4&vPo9@uW3`
 ```
+
 How it works
 *The generator uses random selection to form a password that meets the chosen criteria.
 *The algorithm ensures the inclusion of each character type you’ve selected (lowercase, uppercase, numbers, special characters).
@@ -75,6 +82,7 @@ def generate_password(length=12, use_uppercase=True, use_special=True):
 password = generate_password(length=12, use_uppercase=True, use_special=True)
 print("Generated Password:", password)
 ```
+
 Node.js Example
 ```javascript
 const generatePassword = (length = 12, useUppercase = true, useSpecial = true) => {
@@ -98,13 +106,21 @@ const generatePassword = (length = 12, useUppercase = true, useSpecial = true) =
 let password = generatePassword(12, true, true);
 console.log("Generated Password:", password);
 ```
+
 Contributing
+
 1.Fork the repository.
+
 2.Create a new branch (`git checkout -b feature-name`).
+
 3.Make your changes.
+
 4.Commit your changes (`git commit -am 'Add feature'`).
+
 5.Push to your forked repository (`git push origin feature-name`).
+
 6.Create a new Pull Request.
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
