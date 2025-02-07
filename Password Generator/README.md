@@ -36,7 +36,7 @@ For Node.js:
 node password_generator.js
 ```
 
-Usage
+<h1>Usage</h1>
 
 1.Set Password Length: Choose how long you want your password to be.
 
@@ -56,10 +56,14 @@ Include Special Characters: Yes
 Generated Password: `Jk4&vPo9@uW3`
 ```
 
-How it works
+<h1>How it works</h1>
+
 *The generator uses random selection to form a password that meets the chosen criteria.
+
 *The algorithm ensures the inclusion of each character type you’ve selected (lowercase, uppercase, numbers, special characters).
+
 *The result is a strong password that is difficult to guess or crack.
+
 
 Example Code
 Python Example
@@ -107,7 +111,7 @@ let password = generatePassword(12, true, true);
 console.log("Generated Password:", password);
 ```
 
-Contributing
+<h1>Contributing</h1>
 
 1.Fork the repository.
 
@@ -122,7 +126,8 @@ Contributing
 6.Create a new Pull Request.
 
 
-License
+<h1>License</h1>
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
