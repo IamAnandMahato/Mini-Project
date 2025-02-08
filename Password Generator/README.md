@@ -12,29 +12,10 @@ A simple password generator tool that creates strong and secure passwords based 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/IamAnandMahato/Mini-Project/tree/main/Password%20Generator
 cd password-generator 
 ```
 
-#Install dependencies
-For Python (if you’re using Python to implement the generator):
-
-```bash
-pip install -r requirements.txt
-
-Or for Node.js (if you’re implementing it in JavaScript):
-bash
-npm install
-```
-Run the application
-For Python:
-```bash
-python password_generator.py
-```
-For Node.js:
-```bash
-node password_generator.js
-```
 
 <h1>Usage</h1>
 
@@ -65,51 +46,6 @@ Generated Password: `Jk4&vPo9@uW3`
 *The result is a strong password that is difficult to guess or crack.
 
 
-Example Code
-Python Example
-```python
-import random
-import string
-
-def generate_password(length=12, use_uppercase=True, use_special=True):
-    characters = string.ascii_lowercase  # Always include lowercase letters
-    if use_uppercase:
-        characters += string.ascii_uppercase
-    if use_special:
-        characters += string.punctuation
-    characters += string.digits  # Always include digits
-
-    password = ''.join(random.choice(characters) for i in range(length))
-    return password
-
-# Example usage
-password = generate_password(length=12, use_uppercase=True, use_special=True)
-print("Generated Password:", password)
-```
-
-Node.js Example
-```javascript
-const generatePassword = (length = 12, useUppercase = true, useSpecial = true) => {
-    let characters = 'abcdefghijklmnopqrstuvwxyz';  // Always include lowercase letters
-    if (useUppercase) {
-        characters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    }
-    if (useSpecial) {
-        characters += '!@#$%^&*()_+[]{}|;:,.<>?';
-    }
-    characters += '0123456789';  // Always include digits
-
-    let password = '';
-    for (let i = 0; i < length; i++) {
-        password += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    return password;
-}
-
-// Example usage
-let password = generatePassword(12, true, true);
-console.log("Generated Password:", password);
-```
 
 <h1>Contributing</h1>
 
