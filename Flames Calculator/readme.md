@@ -28,7 +28,7 @@ Result: The result will show one of the following categories: Friends, Lovers, A
 Clone this repository:
 
 ```bash
-git clone https://github.com/IamAnandMahato/flames-calculator.git
+git clone https://github.com/IamAnandMahato/Mini-Project/tree/main/Flames%20Calculator
 ```
 
 Open the HTML File:
