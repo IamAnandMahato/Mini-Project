@@ -1,6 +1,6 @@
 <h1>FLAMES Calculator</h1>
 
-FLAMES is a popular game that stands for Friends, Lovers, Affection, Marriage, Enemies, and Siblings. It’s a fun way to predict the relationship outcome based on the names of two individuals. This project is a simple implementation of the FLAMES game calculator that takes two names as input and gives a result based on the FLAMES logic.
+FLAMES is a popular game that stands for Friends, Lovers, Affection, Marriage, Enemies, and Siblings. It’s a fun way to predict the relationship outcome based on the names of two individuals. This project is a simple implementation of the FLAMES game calculator that takes two names as input and gives a result based on the FLAMES logic. This project provides a web-based FLAMES calculator built with HTML, CSS, and JavaScript.
 
 
 <h1>Features</h1>
@@ -31,34 +31,36 @@ Clone this repository:
 git clone https://github.com/IamAnandMahato/flames-calculator.git
 ```
 
-Navigate to the project directory:
+Open the HTML File:
+
+Navigate to the project directory and open the index.html file in your web browser.
 
 ```bash
 cd flames-calculator
 ```
 
-Install the required dependencies (if any):
+Double-click the index.html file to open it in any modern web browser (e.g., Chrome, Firefox, Edge).
 
-```bash
-pip install -r requirements.txt
-```
 
 
 <h2>Usage</h2>
 
-Command Line: You can use the FLAMES calculator via the command line (if you prefer a terminal-based experience).
+Open the Web Application:
 
-```bash
-python flames_calculator.py
-```
+After opening the index.html file in your browser, you'll see two input fields for the names.
 
-It will prompt you to enter two names, then calculate the result and display the relationship type.
+Enter Names:
 
-Web Application (optional): If you want a web-based version of this calculator, you can run the Flask/Django web application (if integrated).
+Input the names of two individuals you want to check the FLAMES result for.
 
-```bash
-python app.py
-```
+Click "Flames":
+
+Once the names are entered, click the "Flames" button to see the FLAMES result.
+
+View the Result:
+
+The result will appear on the screen with one of the categories: Friends, Lovers, Affection, Marriage, Enemies, or Siblings.
+
 
 Visit http://     in your browser to interact with the FLAMES calculator.
 
@@ -75,6 +77,13 @@ Name 2: Priya
 Output:
 
 Relationship: Marriage
+
+
+
+<h2>Customization</h2>
+
+
+You can customize the appearance of the calculator by modifying the style.css file. The layout and colors can be changed to suit your preferences.
 
 
 
@@ -110,4 +119,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 This project is a fun, simplified version of the traditional FLAMES game.
 
 
-Thanks to the Python community for providing resources and frameworks for creating this application.
