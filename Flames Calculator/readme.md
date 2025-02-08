@@ -72,7 +72,7 @@ Name 1: Rohit
 Name 2: Priya
 
 
-##Output:
+Output:
 
 Relationship: Marriage
 
