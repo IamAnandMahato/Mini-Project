@@ -42,7 +42,7 @@ A modern web browser (e.g., Chrome, Firefox, Safari)
 Clone the repository to your local machine using:
 
 ```bash
-git clone https://github.com/your-username/todo-list-web-app.git
+git clone https://github.com/IamAnandMahato/Mini-Project/tree/main/To%20Do%20List
 ```
 
 Open the index.html file in your browser:
@@ -73,7 +73,7 @@ style.css: The stylesheet that defines the appearance and layout of the app.
 
 script.js: The JavaScript file that contains the logic to manage tasks, including adding, editing, deleting, and saving tasks to local storage.
 
-\
+
 ## Future Improvements
 
 Task Categories: Allow users to categorize tasks (e.g., Work, Personal).
