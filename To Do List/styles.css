@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7f4; /* Soft muted green background */
+    color: #34495e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #16a085; /* A teal color for the heading */
+    font-size: 2rem;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #16a085; /* Border matching the heading color */
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    background-color: #16a085; /* Matching button color */
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #128069; /* Slightly darker teal on hover */
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 8px 15px;
+    margin: 0 5px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: #16a085; /* Matching color on hover */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    border-top: 1px solid #bdc3c7;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f4f4f4; /* Light grey for tasks */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #d6e5e4; /* Softer greenish background for completed tasks */
+}
+
+.edit-task {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #f39c12; /* Orange for the edit icon */
+}
+
+.delete-task {
+    cursor: pointer;
+    color: #e74c3c; /* Red for the delete icon */
+}
+
+.credits {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.credits a {
+    color: #16a085; /* Teal for the credit link */
+    text-decoration: none;
+}
+
+.credits a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button, #new-task {
+        font-size: 0.9rem;
+    }
+}
