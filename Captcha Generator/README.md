@@ -1,8 +1,10 @@
+<h1> CAPTCHA GENERATOR</h1>
+
 This project is a simple web-based CAPTCHA generator built with HTML, CSS, and JavaScript. It creates a random alphanumeric CAPTCHA code and provides a text input field for users to enter the code. This functionality helps to distinguish between human users and automated bots.
 
 
 
-<b>🧩 Features </b>
+<h2>🧩 Features </h2>
 
 
 Random CAPTCHA generation using letters and numbers
@@ -22,7 +24,7 @@ Pure frontend (no backend or external libraries)
 
 
 
-<b>🚀 How It Works</b>
+<h2>🚀 How It Works</h2>
 
 
 When the page loads, a random CAPTCHA is generated using JavaScript.
@@ -45,7 +47,7 @@ A "Reload CAPTCHA" button lets the user generate a new code.
 
 
 
-<b>🛠️ Technologies Used</b>
+<h2>🛠️ Technologies Used</h2>
 
 
 HTML – for structure
@@ -60,7 +62,7 @@ JavaScript – for CAPTCHA generation and validation logic
 
 
 
-<b>📂 How to Use</b>
+<h2>📂 How to Use</h2>
 
 
 Clone or download this repository.
@@ -75,15 +77,20 @@ Try entering the CAPTCHA and verify your input.
 Click "Reload" to generate a new CAPTCHA.
 
 
-''' bash
+``` bash
 
 git clone https://github.com/IamAnandMahato/Mini-Project/tree/main/Captcha%20Generator
 
-cd captcha-generator
-'''
+```
+
+```bash
+
+cd captcha-
+
+```
 
 
-<b>📄 License</b>
+<h2>📄 License</h2>
 
 
 This project is open-source and available under the MIT License.
