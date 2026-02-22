@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <h1 class="title">🌦 Weather Monitor</h1>
+
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Search city...">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="weather-card">
+        <h2 id="cityName">India</h2>
+        <p id="dateTime"></p>
+
+        <img id="weatherIcon" src="" alt="Weather Icon">
+
+        <h1 id="temperature">--°C</h1>
+        <p id="description"></p>
+
+        <div class="details">
+            <div>💧 <span id="humidity"></span></div>
+            <div>💨 <span id="wind"></span></div>
+            <div>🌡 Feels Like: <span id="feelsLike"></span></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
